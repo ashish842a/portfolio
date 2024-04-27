@@ -5,6 +5,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
+import { Link } from "react-router-dom";
 
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
@@ -150,18 +151,21 @@ export const ContactUs = () => {
                 required
               ></textarea>
               <br />
-              <Row>
-                <Col lg="4" className="form-group">
-                  <button className="btn ac_btn" type="submit">
-                    {formData.loading ? "Sending..." : "Send"}
-                  </button>
-                </Col>
-                <Col lg="8" className="form-group">
-                  <button className="btn ac_btn" type="submit">
-                    {formData.loading ? "Sending..." : "Send"}
-                  </button>
-                </Col>
-              </Row>
+              <Container justify="between" className="d-flex align-items-center">
+      <Col lg="4" className="form-group">
+        <button className="btn ac_btn" type="submit">
+          {formData.loading ? "Sending..." : "Send"}
+        </button>
+      </Col>
+      <Link to="/" style={{marginLeft:"-7vw"}}>
+        <div id="button_h" className="ac_btn btn" >
+          Home
+          <div className="ring one"></div>
+          <div className="ring two"></div>
+          <div className="ring three"></div>
+        </div>
+      </Link>
+    </Container>
             </form>
           </Col>
         </Row>

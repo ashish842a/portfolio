@@ -1,3 +1,5 @@
+import imgpath from "./assets/images/hero_img2.jpg" 
+
 const logotext = "aK";
 const meta = {
     title: "Ashish Kumar",
@@ -12,8 +14,10 @@ const introdata = {
         third: "I Know Web and ML",
     },
     description: "Fullstack Web Developer fluent in Node.js and React, driven by Machine Learning. Excels in dynamic web apps, embraces innovation, and welcomes challenges to foster continuous growth in software development",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    // your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: imgpath,
 };
+
 
 const dataabout = {
     title: "Dynamic Fullstack Developer: Node.js, React, and Machine Learning Enthusiast",
