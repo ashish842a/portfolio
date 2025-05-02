@@ -157,7 +157,7 @@ export const ContactUs = () => {
           {formData.loading ? "Sending..." : "Send"}
         </button>
       </Col>
-      <Link to="/" style={{marginLeft:"-7vw"}}>
+      <Link to="/" style={{marginLeft:"-7.1vw"}}>
         <div id="button_h" className="ac_btn btn" >
           Home
           <div className="ring one"></div>
