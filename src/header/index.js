@@ -40,7 +40,7 @@ const Headermain = () => {
                   <li className="menu_item">
                     {/* <Link  onClick={handleToggle} to="/portfolio" className="my-3"> Portfolio</Link> */}
                     {/* <a href="https://drive.google.com/file/d/1ct7Mv5PmzkEUVVGq-Gfc7_bZRtOlb54V/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="my-3">My Resume</a> */}
-                    <a href="https://drive.google.com/file/d/1dV8HFbwIE2Xx_QghhTpfg_JpKL6MdR3t/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="my-3">My Resume</a>
+                    <a href="https://drive.google.com/file/d/1dV8HFbwIE2Xx_QghhTpfg_JpKL6MdR3t/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="my-3">See Resume</a>
                   </li>
                   <li className="menu_item">
                   <Link onClick={handleToggle} to="/about" className="my-3">About</Link>
