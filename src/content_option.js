@@ -1,4 +1,5 @@
-import heroImage from './assets/images/heroImage.jpg';
+// import heroImage from './assets/images/heroImage.jpg';
+import heroImage from './assets/images/heroImage.png';
 const logotext = "aK";
 
 const meta = {
