@@ -1,0 +1,71 @@
+Great question! To **rebuild, push, and redeploy** your React app after making changes, you can follow these **5 simple steps** every time:
+
+---
+
+### 🔁 Steps to Redeploy Your App After Changes
+
+#### 1. ✅ **Make Code Changes**
+
+Update your code in the `main` branch as needed.
+
+---
+
+#### 2. 💾 **Commit Your Changes**
+
+```bash
+git add .
+git commit -m "Update: <describe your changes>"
+```
+
+---
+
+#### 3. 🚀 **Push Changes to GitHub `main`**
+
+```bash
+git push origin main
+```
+
+---
+
+#### 4. 🛠️ **Build & Deploy to `gh-pages`**
+
+Make sure you're in your project folder, then run:
+
+```bash
+npm run deploy
+```
+
+> This will:
+>
+> * Build your React app (`npm run build`)
+> * Copy `index.html` to `404.html` (for GitHub routing)
+> * Push the build folder to the `gh-pages` branch
+
+---
+
+#### 5. 🔍 **Verify Deployment**
+
+Go to:
+🌐 `https://ashish842a.github.io/portfolio`
+to check if your changes are live.
+
+---
+
+### 📝 Tip: Automate with a Git Hook (Optional)
+
+If you want, I can show you how to automatically run `npm run deploy` after pushing to `main` using a Git hook.
+
+Would you like that?
+
+
+Awesome, Ashish! 🎉 Glad to hear it's working now!
+
+Now every time you update your code, just follow this flow:
+
+Make code changes in main
+
+git add . && git commit -m "your message"
+
+git push origin main
+
+npm run deploy to push to gh-pages

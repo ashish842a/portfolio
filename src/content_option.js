@@ -1,4 +1,6 @@
+import heroImage from './assets/images/heroImage.jpg';
 const logotext = "aK";
+
 const meta = {
     title: "Ashish Kumar",
     description: "I’m Ashish Kumar data scientist _ Full stack devloper,currently working in Berlin",
@@ -13,8 +15,8 @@ const introdata = {
     },
     description: "Fullstack Web Developer fluent in Node.js and React, driven by Machine Learning. Excels in dynamic web apps, embraces innovation, and welcomes challenges to foster continuous growth in software development",
     // your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
-    // your_img_url: "/src/assets/images/hero-image.jpg",
-    your_img_url: "https://i.pinimg.com/736x/a3/7d/61/a37d610cbe4720d664704ebf06a94167.jpg",
+    your_img_url:heroImage,
+    // your_img_url: "https://i.pinimg.com/736x/a3/7d/61/a37d610cbe4720d664704ebf06a94167.jpg",
 };
 
 const dataabout = {
