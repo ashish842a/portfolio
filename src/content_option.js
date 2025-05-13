@@ -27,31 +27,31 @@ const dataabout = {
 const worktimeline = [
     {
         jobtitle: "Automated Intelligent Document Processing Tool",
-        where: "Your Organization",
+        where: "DRDO, Nit Raipur",
         date: "2023 - Present",
         description: "Developed an intelligent document processing tool using Machine Learning, OCR (Tesseract and EasyOCR), GANs, and NLP. Implemented with Python and Flask, data stored in MongoDB.",
     },
     {
         jobtitle: "Property Management System",
-        where: "Your Organization",
+        where: "IBI Infotech pvt. Ltd.", 
         date: "2022 - 2023",
         description: "Developed a dynamic Property Management System using Node.js, ejs, Multer, Nodemailer, and MongoDB. Designed for efficient user interaction and management.",
     },
     {
         jobtitle: "Real-Time Chat Application",
-        where: "Your Organization",
+        where: "Self Project",
         date: "2021 - 2022",
         description: "Built a real-time chat application using Socket.IO for instant communication between users, enhancing collaboration and engagement.",
     },
     {
         jobtitle: "Farmer's Space Equipment Rental Portal",
-        where: "Your Organization",
+        where: "Self Project",
         date: "2020 - 2021",
         description: "Developed an equipment rental portal for farmers using Node.js, EJS, and MongoDB, facilitating easy access to agricultural equipment.",
     },
     {
         jobtitle: "Restaurant Management System",
-        where: "Your Organization",
+        where: "Self Project",
         date: "2019 - 2020",
         description: "Designed and implemented a Restaurant Management System using Node.js, EJS, and MongoDB, optimizing restaurant operations and customer service.",
     },
@@ -84,8 +84,24 @@ const skills = [
         value: 90,
     },
     {
+        name: "RAG",
+        value: 70,
+    },
+    {
+        name: "LLMS",
+        value: 80,
+    },
+    {
+        name: "OCR",
+        value: 80,
+    },
+    {
         name: "Flask",
         value: 70,
+    },
+    {
+        name: "MySQL",
+        value: 80,
     },
     {
         name: "MongoDB",
@@ -230,3 +246,4 @@ export {
     socialprofils,
     logotext,
 };
+
