@@ -28,13 +28,13 @@ const worktimeline = [
     {
         jobtitle: "Automated Intelligent Document Processing Tool",
         where: "DRDO, Nit Raipur",
-        date: "2023 - Present",
+        date: "Dec 2023 - Present",
         description: "Developed an intelligent document processing tool using Machine Learning, OCR (Tesseract and EasyOCR), GANs, and NLP. Implemented with Python and Flask, data stored in MongoDB.",
     },
     {
         jobtitle: "Property Management System",
         where: "IBI Infotech pvt. Ltd.", 
-        date: "2022 - 2023",
+        date: "July 2023 - Dec 2023",
         description: "Developed a dynamic Property Management System using Node.js, ejs, Multer, Nodemailer, and MongoDB. Designed for efficient user interaction and management.",
     },
     {
